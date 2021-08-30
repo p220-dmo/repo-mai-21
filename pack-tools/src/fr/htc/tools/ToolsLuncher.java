@@ -9,7 +9,6 @@ public class ToolsLuncher {
 	public static final byte DIVISION = 4;
 	public static final byte EQUATION_SECOND_DEGRE = 5;
 	public static final byte EXIT_APP = 0;
-
 	private static Scanner scanner = new Scanner(System.in);
 
 	/**
@@ -77,6 +76,26 @@ public class ToolsLuncher {
 	private static void pause() {
 		System.out.println("Press 0 and  Enter to continue.....");
 		scanner.nextInt();
+		//Déclaration des variables
+		int a, b, c, Addition, Soustraction, Multiplication, Division, Factoriel; 
+		//Enregistrer les valeurs
+		Scanner Scanner = new Scanner(System.in);
+		System.out.println("entrer a:");
+		System.out.println("entrer b");
+		a = scanner.nextInt();
+		b = scanner.nextInt();
+		//calcul de l'addition
+		Addition = a+b;
+		//Afficher le résultat
+		System.out.println("le résultat de l'Addition est" + Addition);
+		
+		
+		
+		
+		
+		
+
+		
 	}
 
 }
