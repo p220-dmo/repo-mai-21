@@ -123,7 +123,22 @@ public class ToolsLuncher {
 		
 		break;
 		
-	 	
+	case DIVISION: 
+		Scanner scanner4= new Scanner(System.in); 
+		System.out.println("entrer a:");
+		System.out.println("entrer b");
+		a = scanner4.nextInt();
+		b= scanner4.nextInt();
+		// calcul
+		Division = a/b;
+		//affichage
+		System.out.println("le résultat de la division est " + Division);
+		
+		break;
+		
+		
+				
+				
 		
 		
 		
