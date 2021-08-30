@@ -110,7 +110,18 @@ public class ToolsLuncher {
 		
 		break;
 	
-				
+	case MULTIPLICATION:
+		Scanner scanner3= new Scanner(System.in);
+		System.out.println("entrer a:");
+		System.out.println("entrer b");
+		a = scanner3.nextInt();
+		b = scanner3.nextInt();
+		//calcul
+		Multiplication = a/b;
+		//affichage 
+		System.out.println("le résultat de la Multiplication est" + Multiplication);
+		
+		break;
 		
 		
 		
