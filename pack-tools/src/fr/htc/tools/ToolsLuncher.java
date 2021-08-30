@@ -88,7 +88,13 @@ public class ToolsLuncher {
 		Addition = a+b;
 		//Afficher le résultat
 		System.out.println("le résultat de l'Addition est" + Addition);
+		//calcul la soustraction
+		Soustraction = a-b;
+		//afficher le résultat 
+		System.out.println("le résultat de la Soustraction est" + Soustraction);
 		
+	
+				
 		
 		
 		
