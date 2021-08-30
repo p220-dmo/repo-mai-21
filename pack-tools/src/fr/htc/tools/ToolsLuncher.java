@@ -24,16 +24,56 @@ public class ToolsLuncher {
 			switch (choice) {
 			case ADDITION:
 				System.out.println("Vous avez choisi ADDITION ");
+				int a,b,somme,sous,multi,div;
+				Scanner scanner = new Scanner (System.in);
+				System.out.println("entrer la valeur de a");
+				a = scanner.nextInt();
+				System.out.println("entrer la valeur de b");
+				b = scanner.nextInt();
+				scanner.close();
+				somme = a+b; 
+				System.out.println("la somme est :" +somme);
 				break;
+				
+				
 			case SOUSTRACTION:
 				System.out.println("Vous avez choisi SOUSTRACTION ");
+				Scanner scanner1 = new Scanner (System.in);
+				System.out.println("entrer la valeur de a");
+				a = scanner1.nextInt();
+				System.out.println("entrer la valeur de b");
+				b = scanner1.nextInt();
+				scanner1.close();
+				sous = a-b; 
+				System.out.println("la différence est :" +sous);
 				break;
+				
+				
 			case MULTIPLICATION:
 				System.out.println("Vous avez choisi MULTIPLICATION ");
+				
+				Scanner scanner2 = new Scanner (System.in);
+				System.out.println("entrer la valeur de a");
+				a = scanner2.nextInt();
+				System.out.println("entrer la valeur de b");
+				b = scanner2.nextInt();
+				scanner2.close();
+				multi = a*b; 
+				System.out.println("le produit est :" + multi);
 				break;
+				
 			case DIVISION:
 				System.out.println("Vous avez choisi DIVISION ");
+				Scanner scanner3 = new Scanner (System.in);
+				System.out.println("entrer la valeur de a");
+				a = scanner3.nextInt();
+				System.out.println("entrer la valeur de b");
+				b = scanner3.nextInt();
+				scanner3.close();
+				div = a/b; 
+				System.out.println("le produit est :" + div);
 				break;
+				
 			case EXIT_APP:
 				System.out.println("Vous avez choisi EXIT_APP ");
 				System.out.println("Au revoir");
