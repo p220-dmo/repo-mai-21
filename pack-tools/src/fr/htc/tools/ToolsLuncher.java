@@ -76,8 +76,15 @@ public class ToolsLuncher {
 	private static void pause() {
 		System.out.println("Press 0 and  Enter to continue.....");
 		scanner.nextInt();
+	
+		
+		byte choice = printMenuAndGetUserChoice();
+	switch (choice) {
+	
+	case ADDITION:
+	
 		//Déclaration des variables
-		int a, b, c, Addition, Soustraction, Multiplication, Division, Factoriel; 
+		int a, b, c, Somme, Soustraction, Multiplication, Division, Factoriel; 
 		//Enregistrer les valeurs
 		Scanner Scanner = new Scanner(System.in);
 		System.out.println("entrer a:");
@@ -85,14 +92,22 @@ public class ToolsLuncher {
 		a = scanner.nextInt();
 		b = scanner.nextInt();
 		//calcul de l'addition
-		Addition = a+b;
+		Somme = a+b;
 		//Afficher le résultat
-		System.out.println("le résultat de l'Addition est" + Addition);
-		//calcul la soustraction
+		System.out.println("le résultat de l'Addition est" + Somme);
+		
+	case SOUSTRACTION: 
+		Scanner scanner2= new Scanner(System.in);
+		System.out.println("entrer a:");
+		System.out.println("entrer b");
+		a = scanner2.nextInt();
+		b = scanner2.nextInt();
+		//calcul soustraction
 		Soustraction = a-b;
-		//afficher le résultat 
+		//affichage 
 		System.out.println("le résultat de la Soustraction est" + Soustraction);
 		
+		break;
 	
 				
 		
@@ -103,5 +118,5 @@ public class ToolsLuncher {
 
 		
 	}
-
+	}
 }
