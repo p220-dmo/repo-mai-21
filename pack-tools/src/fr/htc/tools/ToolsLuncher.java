@@ -117,13 +117,13 @@ public class ToolsLuncher {
 		a = scanner3.nextInt();
 		b = scanner3.nextInt();
 		//calcul
-		Multiplication = a/b;
+		Multiplication = a*b;
 		//affichage 
 		System.out.println("le résultat de la Multiplication est" + Multiplication);
 		
 		break;
 		
-		
+	 	
 		
 		
 		
