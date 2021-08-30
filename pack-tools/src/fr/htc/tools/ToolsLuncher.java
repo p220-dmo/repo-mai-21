@@ -95,7 +95,8 @@ public class ToolsLuncher {
 		Somme = a+b;
 		//Afficher le résultat
 		System.out.println("le résultat de l'Addition est" + Somme);
-		
+	break;
+	
 	case SOUSTRACTION: 
 		Scanner scanner2= new Scanner(System.in);
 		System.out.println("entrer a:");
