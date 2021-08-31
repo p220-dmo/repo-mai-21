@@ -17,6 +17,8 @@ public class ToolsLuncher {
 		System.out.println("        - Equation 2 Deg.           Tapez 5");
 		System.out.println("        - Factoriel                 Tapez 6");
 		System.out.println("        - Quitter                   Tapez 0");
+
+		
 		// Demander à l'utilisateur d'introduire son choix
 
 		Scanner scanner = new Scanner(System.in);
@@ -28,6 +30,7 @@ public class ToolsLuncher {
 		System.out.println("Faite votre choix : ");
 		choix = scanner.nextInt();
 		}
+		
 		// Switch en fonction du choix
 
 		switch (choix) {
