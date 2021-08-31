@@ -106,7 +106,7 @@ public class ToolsLuncher {
 				System.out.println("Vous avez choisi FACTORIEL ");
 				Scanner scanner = new Scanner(System.in);
 
-	            int x, result, r, i;
+	            int x, result, i;
 	           
 	            System.out.println("Entrez une valeur pour x");
 	            x = scanner.nextInt();
