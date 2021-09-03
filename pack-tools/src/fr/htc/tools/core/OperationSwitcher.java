@@ -12,7 +12,8 @@ import fr.htc.tools.types.enums.OperationType;
 
 public class OperationSwitcher {
 
-	public static void switchTo(OperationType opType) {
+	public static void switchTo(int choice) {
+		 OperationType opType = OperationType.valueOf(choice);
 		Operation op = null;
 		switch (opType) {
 		case EQUATION_SECOND_DEGRE:
