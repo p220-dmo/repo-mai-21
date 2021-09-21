@@ -27,7 +27,7 @@ public class PersonList implements Operation {
 
 	private void printAllPersons(List<Person> personList) {
 		for (Person person : personList) {
-			System.out.println(person);
+			person.print();
 		}
 
 	}

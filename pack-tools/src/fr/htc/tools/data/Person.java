@@ -5,6 +5,8 @@ public class Person {
 	private String prenom;
 	private int age;
 
+	
+
 	public String getNom() {
 		return nom;
 	}
@@ -30,10 +32,7 @@ public class Person {
 	}
 
 	public void print() {
-		System.out.println("Person");
-		System.out.println("Nom    : " + this.nom);
-		System.out.println("Prenom : " + this.prenom);
-		System.out.println("Age    : " + this.age);
+		System.out.println(toString());
 	}
 
 	@Override

@@ -16,7 +16,9 @@ public class ToolsLuncher {
 		do {
 			choice = printMenuAndCatchUserChoice();
 			OperationSwitcher.switchTo(choice);
+	
 		} while (choice != 0 && pressAnyKeyToContinue());
+		
 		cleanUp();
 	}
 
